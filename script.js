@@ -27,7 +27,7 @@ item.addEventListener('click', function(event) {
 
 // Event Listener - Click the button add a new item
 
-btn.addEventListener('click', function(event) {
+btn.addEventListener('click', function() {
     list.innerHTML += `<li class="border-bottom m-3"> Something new ${newItemCounter} </li>`
     newItemCounter++
 })
